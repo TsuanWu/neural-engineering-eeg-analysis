@@ -12,7 +12,7 @@ The scripts in this repository focus on practical EEG data processing workflows,
 
 The preprocessing pipeline includes mean removal, detrending, 60 Hz notch filtering, and band-pass filtering (0.5–50 Hz) to remove noise and baseline drift in EEG signals.
 
-![EEG preprocessing](figures/preprocessing_pipeline.png)
+![EEG preprocessing](figures/Bandpass_filtering.png)
 
 ---
 
