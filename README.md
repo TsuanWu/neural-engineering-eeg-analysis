@@ -6,6 +6,46 @@ This repository contains MATLAB-based coursework for EEG signal preprocessing, E
 
 The scripts in this repository focus on practical EEG data processing workflows, including signal preprocessing, event-based segmentation, ERP analysis, time-frequency visualization, and frequency-band power comparison.
 
+## Example Results
+
+### EEG Preprocessing
+
+The preprocessing pipeline includes mean removal, detrending, 60 Hz notch filtering, and band-pass filtering (0.5–50 Hz) to remove noise and baseline drift in EEG signals.
+
+![EEG preprocessing](figures/preprocessing_pipeline.png)
+
+---
+
+### Event-Related Potential (ERP)
+
+Average ERP waveforms illustrating neural responses following stimulus onset.
+
+![ERP waveform](figures/erp_waveform.jpg)
+
+---
+
+### Spatial Distribution of Spectral Activity
+
+Scalp topography visualization showing spatial distribution of EEG spectral power across electrodes.
+
+![Topography map](figures/topology_map.png)
+
+---
+
+### Time-Frequency Analysis
+
+Short-time Fourier transform (STFT) spectrogram illustrating temporal changes in EEG beta-band activity.
+
+![Time-frequency analysis](figures/time_frequency.png)
+
+---
+
+### Frequency Band Power Comparison
+
+Comparison of EEG power across classical frequency bands (Delta, Theta, Alpha, Beta, Gamma).
+
+![Band power comparison](figures/band_power.png)
+
 ## Topics Covered
 
 - EEG data import from CSV files
